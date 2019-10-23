@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Solution {
+	public static void main(String[] args) {
+		//Your code goes here
+        
+        Scanner sc=new Scanner(System.in);
+        
+        int n=sc.nextInt();
+        
+      int i=1;
+        int k=n;
+      while(i<=n){
+                    
+          int j=1;
+          char p=(char)('A'+k-1);
+          while(j<=i){
+              
+              System.out.print(p);
+              p=(char)(p+1);
+              j++;
+              
+          }
+          k--;
+          i++;
+          System.out.print("\n");
+      }  
+    }   
+}
